@@ -35,7 +35,7 @@ Ques-4 -> (SCALER QUESTION 30681 059f) -
 # Solution - Server D and Server E
 
 
-Ques-2 -> (SCALER QUESTION 30682 b38d) - 
+Ques-5 -> (SCALER QUESTION 30682 b38d) - 
 
     When distributing requests among machines in a load-balanced system, which factor is not necessarily a key consideration to keep in mind ?
 

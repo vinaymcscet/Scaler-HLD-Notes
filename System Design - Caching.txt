@@ -1,0 +1,51 @@
+Ques-1 -> (SCALER QUESTION 30974 f51b) - 
+
+    Which of the following statements is true regarding the architecture of Redis?
+
+# Solution - Redis operates as a single-threaded server.
+
+Ques-2 -> (SCALER QUESTION 30685 45c2) - 
+
+    Imagine you're designing a database system for a financial application where data integrity is crucial. Which cache management strategy would be most suitable to ensure that the cached data and main memory remain consistent at all times?
+
+# Solution - Write Through
+
+Ques-3 -> (SCALER QUESTION 30686 4420) - 
+
+    Consider a cache using the Most Recently Used (MRU) eviction strategy. The cache has a maximum capacity of 3 items. The following sequence of operations occurs:
+
+    Item A is accessed.
+    Item B is accessed.
+    Item C is accessed.
+    Item B is accessed again.
+    Item D is accessed.
+    Which entry will be evicted from the cache when item D is accessed?
+
+# Solution - Item B
+
+Ques-4 -> (SCALER QUESTION 30688 94aa) - 
+
+    Consider a CPU cache with the following characteristics: total capacity of 4 items, and a Least Recently Used (LRU) eviction strategy. The cache initially contains items A, B, and C. The following sequence of operations occurs:
+
+    Item A is accessed.
+    Item B is accessed.
+    Item D is accessed.
+    Item C is accessed.
+    Item E is accessed.
+    Item A is accessed.
+    Based on the given information, how many cache hits and cache misses occur in this sequence?
+
+# Solution - Cache Hits: 3, Cache Misses: 3
+
+Ques-5 -> (SCALER QUESTION 30689 dd11) - 
+
+    In a gaming application, where performance is critical and data consistency can be temporarily sacrificed, which cache invalidation strategy would be most appropriate to enhance responsiveness and reduce the number of main memory writes during frequent small updates to player positions?
+
+# Solution - Write Back
+
+Ques-6 -> (SCALER QUESTION 30690 fb2f) - 
+
+    Which of the following pseudo codes correctly implements the eviction process in a Last-In-First-Out (LIFO) cache?
+
+# Solution - evictlastinfirstout(cache): lastinitem = cache.tail cache.tail = cache.tail.prev release(lastinitem)
+
