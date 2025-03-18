@@ -1,0 +1,53 @@
+Ques-1 -> (SCALER QUESTION 30965 7de4) - 
+
+    What can be a drawback of relying heavily on global caching in a distributed system?
+
+# Solution - Increased network traffic
+
+Ques-2 -> (SCALER QUESTION 30966 14f5) - 
+
+    Which statement best describes the role of local caches in a distributed system?
+
+# Solution - Local caches improve data access speed for individual nodes.
+
+Ques-3 -> (SCALER QUESTION 30968 e7ee) - 
+
+    Which cache type is more likely to suffer from cache coherence issues in a distributed environment?
+
+# Solution - Local cache
+
+Ques-4 -> (SCALER QUESTION 30969 2083) - 
+
+    What is the primary purpose of a local cache in a distributed system?
+
+# Solution - Reduce latency for data access
+
+Ques-5 -> (SCALER QUESTION 30970 fd27) - 
+
+    Facebook uses a global cache to store the last 30 days' posts of all users. How does this global cache improve the performance of users' news feeds?
+
+# Solution - It minimizes the load on the main database by serving frequently accessed posts from cache.
+
+Ques-6 -> (SCALER QUESTION 30971 418d) - 
+
+    You are working on a video streaming service that wants to ensure smooth playback for users while minimizing buffering and latency issues. The service hosts a vast library of popular movies and TV shows. Which cache type would be most suitable to minimize buffering and latency issues during video playback?
+
+# Solution - Local cache
+
+Ques-7 -> (SCALER QUESTION 30972 0cb3) - 
+
+    On the Scaler platform, the process of storing and retrieving test cases for programming problems is being optimized. These test cases are regularly updated or modified, and some of them are quite large. To minimize data transfer and improve response times, what type of mechanism should Scaler use to efficiently manage these test cases?
+
+# Solution - Leveraging local caching on app servers and updating cached files on access, the app server should first query metadata like timestamp or file size to determine if updates are needed.
+
+Ques-8 -> (SCALER QUESTION 30973 87e2) - 
+
+    You're designing a system that requires quick data access for frequent read and write operations. Which of the following technologies would be most suitable for this need?
+
+# Solution - A system like Redis with in-memory storage.
+
+Ques-7 -> (SCALER QUESTION 30974 f51b) - 
+
+    Which of the following statements is true regarding the architecture of Redis?
+
+# Solution - Redis operates as a single-threaded server.

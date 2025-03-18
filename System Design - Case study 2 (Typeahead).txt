@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31383 9c59) - 
+
+    What type of database is best suited for implementing a Typeahead system with efficient search and retrieval capabilities?
+
+# Solution - Trie-Based Database
+
+Ques-2 -> (SCALER QUESTION 31382 8835) - 
+
+    In the context of a Typeahead suggestion system, what is the primary factor that determines the necessity of implementing sharding?
+
+# Solution - The scale of the dataset and the volume of user queries.
+
+Ques-3 -> (SCALER QUESTION 31381 483a) - 
+
+    In a Typeahead suggestion system, implementing a threshold approach helps manage the data structure efficiently. This method involves setting a criterion based on the search frequency or recency of terms. What is a key benefit of using the threshold approach in such a system?
+
+# Solution - It helps in maintaining a balance between system performance and the relevance of the suggestions by focusing on frequently searched terms.
+
+Ques-4 -> (SCALER QUESTION 31380 0a0d) - 
+
+    What is the key difference between the HashMap approach and the Trie approach in a Typeahead system?
+
+# Solution - The HashMap approach can be more practical for large-scale systems.
+
+Ques-5 -> (SCALER QUESTION 31379 0637) - 
+
+    How does the sampling approach contribute to reducing the load in a Typeahead system?
+
+# Solution - By reducing the number of search queries processed
+
+Ques-6 -> (SCALER QUESTION 31378 f949) - 
+
+    Why is the concept of Time Decay applied in a Typeahead system?
+
+# Solution - To reduce the weightage of older search queries in suggestions
+
+Ques-7 -> (SCALER QUESTION 31377 b979) - 
+
+    In a Typeahead system, a threshold approach is often implemented. This approach involves setting a limit (or threshold) on the frequency or recency of search terms before they are included or updated in the trie. What is the primary purpose of implementing this threshold approach?
+
+# Solution - To ensure that only high-frequency search terms are updated in the trie, optimizing the relevance of suggestions.

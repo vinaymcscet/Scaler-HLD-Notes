@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31348 47f1) - 
+
+    You are developing a new application expected to handle a high volume of diverse, unstructured data, such as user profiles, posts, and multimedia content. Which of the following options is NOT a typical reason for choosing a NoSQL database for this application?
+
+# Solution - Excellent for complex queries and joins
+
+Ques-2 -> (SCALER QUESTION 31349 d371) - 
+
+    In an e-commerce website, multiple users are simultaneously adding and updating items in their shopping carts. Which ACID property ensures that transactions do not interfere with each other, allowing each user's actions to proceed independently until they complete their transactions?
+
+# Solution - Isolation
+
+Ques-3 -> (SCALER QUESTION 31359 b685) - 
+
+    Suppose you are designing a banking application where customers can transfer money between their accounts. Which ACID property ensures that if a transfer transaction fails at any point (e.g., due to insufficient funds), the entire transaction is rolled back, and neither the sender's account nor the recipient's account is left in an inconsistent state?
+
+# Solution - Atomicity
+
+Ques-4 -> (SCALER QUESTION 31350 8d50) - 
+
+    In which real-life scenario would a Key-Value Store be the most suitable NoSQL storage type for efficiently managing data?
+
+# Solution - Caching frequently accessed web page elements for a content delivery network (CDN).
+
+Ques-5 -> (SCALER QUESTION 31360 4465) - 
+
+    In a rapidly growing online multiplayer game with millions of concurrent players worldwide, the game's backend infrastructure faces a challenge in handling player data. What significant limitation of SQL databases becomes apparent in this scenario?
+
+# Solution - SQL databases face challenges when sharding player data.
+
+Ques-6 -> (SCALER QUESTION 31361 cd17) - 
+
+    In a social media platform where users frequently post content and perform searches based on user location, which attribute would be the most suitable sharding key for optimizing database performance and load distribution?
+
+# Solution - User Location (Latitude and Longitude)
+
+Ques-7 -> (SCALER QUESTION 31362 12b3) - 
+
+    In an e-commerce platform that frequently experiences high traffic during sales events and has a diverse product catalog, which attribute should be considered as the sharding key to ensure even distribution of data and optimal query performance ?
+
+# Solution - Product Id
