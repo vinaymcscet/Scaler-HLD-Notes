@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31376 eeb6) - 
+
+    In a distributed database system, a Bloom filter is used to optimize key existence checks. The Bloom filter has been configured to minimize false negatives. Which of the following statements best describes the behavior of the Bloom filter in this context?
+
+# Solution - 4 It may return "true" for key existence checks even if the key is not present in the database, but it will never return "false" for keys that do exist.
+
+Ques-2 -> (SCALER QUESTION 31375 4dbc) - 
+
+    What is the purpose of the in-memory index in a NoSQL database's SSTable?
+
+# Solution - To facilitate binary searches in the file
+
+Ques-3 -> (SCALER QUESTION 31367 f863) - 
+
+    In a NoSQL database, what happens to the MemTable when a machine storing the data reboots?
+
+# Solution - The MemTable is reconstructed by replaying Write-Ahead Logs (WAL)
+
+Ques-4 -> (SCALER QUESTION 31366 2378) - 
+
+    How does compaction contribute to the efficient storage and retrieval of data in a NoSQL database?
+
+# Solution - It removes duplicate entries and merges SSTables into a new compacted file
+
+Ques-5 -> (SCALER QUESTION 31365 b25d) - 
+
+    In the context of a distributed e-commerce platform facing high traffic during peak shopping seasons, which feature is essential for ensuring the platform's scalability and handling the surge in user requests effectively?
+
+# Solution - Sharding to distribute data across multiple servers, reducing the load on individual servers.
+
+Ques-6 -> (SCALER QUESTION 31364 b26c) - 
+
+    In a NoSQL database system using the Log-Structured Merge (LSM) Tree, which of the following statements best describes the behavior of the LSM Tree during write operations?
+
+# Solution - Write operations are first stored in-memory in a MemTable and then flushed to disk as sorted SSTables during compaction.
+
+Ques-7 -> (SCALER QUESTION 31363 59d0) - 
+
+    What is the primary purpose of using a Write-Ahead Log (WAL) in NoSQL database systems?
+
+# Solution - To facilitate efficient updates and recovery in case of system crashes

@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31351 c936) - 
+
+    What is the primary objective of defining the MVP (Minimum Viable Product) before designing any system?
+
+# Solution - To outline the most important system features for initial development.
+
+Ques-2 -> (SCALER QUESTION 31352 0670) - 
+
+    Why is it important for write APIs in a messaging system to be idempotent?
+
+# Solution - To avoid duplicate messages in case of network retries.
+
+Ques-3 -> (SCALER QUESTION 31353 6553) - 
+
+    What is one of the primary key challenges when choosing the right database/cache for a messaging system?
+
+# Solution - Handling write concurrency.
+
+Ques-4 -> (SCALER QUESTION 31355 d5aa) - 
+
+   Why might a messaging system use appservers as caches, and how does it help with write concurrency?
+
+# Solution - Appservers can take write locks on user data, ensuring sequential writes.
+
+Ques-5 -> (SCALER QUESTION 31356 26ff) - 
+
+    In a messaging system, which design approach is preferable for handling message sending to ensure high consistency?
+
+# Solution - Write to the recipient's database first, then the sender's.
+
+Ques-6 -> (SCALER QUESTION 31357 6d01) - 
+
+    In the context of sharding strategies for messaging systems, which use case is best suited for shard-by-user-id and shard-by-conversation-id approaches, respectively?
+
+# Solution - Shard by user id: Messenger, Shard by conversation id: Slack.
+
+Ques-7 -> (SCALER QUESTION 31358 3ece) - 
+
+    In the context of a messaging system like Messenger or Slack, what best describes the system's load characteristics?
+
+# Solution - Both read-heavy and write-heavy, as it needs to handle message storage, retrieval, and real-time delivery.

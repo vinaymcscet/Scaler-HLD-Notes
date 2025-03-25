@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31510 855c) - 
+
+    In a distributed system utilizing Apache ZooKeeper for leader election, imagine a scenario with 7 ZooKeeper nodes. How many nodes need to acknowledge a write for it to be considered successful in this setup?
+
+# Solution - 4 nodes
+
+Ques-2 -> (SCALER QUESTION 31516 8370) - 
+
+    In an e-commerce system using Apache Kafka, why would you use topics and partitions?
+
+# Solution - To distribute and parallelize the processing of order events
+
+Ques-3 -> (SCALER QUESTION 31515 f0a4) - 
+
+    In a Master-Slave architecture, what does ZooKeeper help achieve when the master fails?
+
+# Solution - It uses leader election to select a new master and notifies clients.
+
+Ques-4 -> (SCALER QUESTION 31514 cc31) - 
+
+    How does Kafka ensure fault tolerance in the event of broker machine failures?
+
+# Solution - By replicating data across multiple partitions
+
+Ques-5 -> (SCALER QUESTION 31513 64db) - 
+
+    How does Kafka ensure that messages with the same key end up in the same partition?
+
+# Solution - By hashing the key to determine the partition
+
+Ques-6 -> (SCALER QUESTION 31512 00ce) - 
+
+    How does ZooKeeper reduce the need for continuous queries to find out who the master is in a Master-Slave architecture?
+
+# Solution - By setting watches on nodes
+
+Ques-7 -> (SCALER QUESTION 31511 ea4d) - 
+
+    What is the primary role of Apache ZooKeeper in a distributed system?
+
+# Solution - Distributed Coordination and Synchronization
