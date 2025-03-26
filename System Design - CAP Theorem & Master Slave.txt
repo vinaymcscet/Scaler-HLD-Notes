@@ -1,0 +1,53 @@
+Ques-1 -> (SCALER QUESTION 30975 68b2) - 
+
+    According to the CAP theorem, what does "Partition Tolerance" refer to in a distributed system?
+
+# Solution - The system's capability to continue functioning in the presence of network partitions or communication breakdowns between nodes.
+
+Ques-2 -> (SCALER QUESTION 30977 798f) - 
+
+    In the PACELC theorem, when a distributed system operates without network partitions, what trade-off does the theorem address in terms of system behavior?
+
+# Solution - Choosing between high consistency and low latency.
+
+Ques-3 -> (SCALER QUESTION 30978 84cb) - 
+
+    In a distributed database for a reservation system where accurate seat availability is crucial, should the focus be on:
+
+# Solution - Consistency
+
+Ques-4 -> (SCALER QUESTION 30979 c072) - 
+
+    In a social media platform where the emphasis is on displaying different posts or comments by other users as they are created, should the platform focus on:
+
+# Solution - Availability
+
+Ques-5 -> (SCALER QUESTION 30980 caf8) - 
+
+    In a master/slave configuration with very very low latency, what happens when a write request is made?
+
+# Solution - The request is sent to the master first and returned successful, then eventually passed to the slaves.
+
+Ques-6 -> (SCALER QUESTION 30981 e1b8) - 
+
+    In a master/slave architecture with high consistency, if the master dies, the newly elected master can be any of the slaves.
+
+# Solution - True
+
+Ques-7 -> (SCALER QUESTION 30983 36d4) - 
+
+    When Redis reaches its memory limit and needs to evict data to make space for new entries, which of the following eviction policies might it use, depending on its configuration?
+
+# Solution - All Keys LRU (allkeys-lru): Evict the least recently used keys from all keys., No Eviction (noeviction): Do not evict any data, but return errors on write operations when the memory limit is reached.
+
+Ques-8 -> (SCALER QUESTION 30982 0153) - 
+
+    Which of the following are potential disadvantages of the master/slave architecture in distributed systems?
+
+# Solution - Limited capacity to handle write requests.
+
+Ques-9 -> (SCALER QUESTION 30984 76c3) - 
+
+    What is one of the main use cases of Redis in high-level system design?
+
+# Solution - Caching frequently accessed data.
