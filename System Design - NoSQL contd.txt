@@ -1,0 +1,43 @@
+Ques-1 -> (SCALER QUESTION 31368 1b1f) - 
+
+    What is a peculiar advantage of Column Family Stores (Wide-Column Stores) in NoSQL databases?
+
+# Solution - They allow for efficient retrieval of the most recent entries for each column.
+
+Ques-2 -> (SCALER QUESTION 31369 653e) - 
+
+    In a NoSQL database cluster, what is the role of reserved machines initially configured as extra slaves for some master?
+
+# Solution - They act as backup nodes to maintain data consistency.
+
+Ques-3 -> (SCALER QUESTION 31370 9d80) - 
+
+    You are a Database Administrator at a tech company, and the user base for one of your products has grown significantly. The NoSQL database cluster handling the product's data is reaching its capacity limits, and you decide to add a new shard to the cluster to handle the increased load.
+    Which of the following steps should you typically take to add the new shard and maintain data availability?
+
+# Solution - Copy data from an existing machine to the new machine, then make the new shard live.
+
+Ques-4 -> (SCALER QUESTION 31371 0082) - 
+
+    In a distributed NoSQL database system, what technique is commonly used to ensure an even distribution of data and load across nodes while adding or removing machines?
+
+# Solution - Consistent hashing
+
+Ques-5 -> (SCALER QUESTION 31372 b3cf) - 
+
+    In a Multi-Master distributed database system, what does "R" represent in the context of system consistency?
+
+# Solution - The minimum number of machines from which data must be read for a consistent query.
+
+Ques-6 -> (SCALER QUESTION 31373 68da) - 
+
+    In a Multi-Master distributed database system, what is the relationship between "R," "W," and "X"?
+
+# Solution - R and W must be less than or equal to X.
+
+Ques-7 -> (SCALER QUESTION 31374 a6b9) - 
+
+    What happens to system consistency as the sum of "R" and "W" (R+W) increases in a Multi-Master database system?
+
+# Solution - System consistency improves. 
+
