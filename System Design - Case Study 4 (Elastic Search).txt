@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31523 5bed) - 
+
+    In which of the following use cases is Elasticsearch commonly applied?
+
+# Solution - E-commerce product search and recommendations.
+
+Ques-2 -> (SCALER QUESTION 31522 fda6) - 
+
+    In Elasticsearch, what is a "document"?
+
+# Solution - In Elasticsearch, what is a "document"?
+
+Ques-3 -> (SCALER QUESTION 31521 5a08) - 
+
+    What happens when a shard fails to respond to a read request in Elasticsearch?
+
+# Solution - The coordinating node sends the request to another shard copy in the same replication group.
+
+Ques-4 -> (SCALER QUESTION 31520 fca1) - 
+
+    How does Elasticsearch handle read operations for search queries that may match documents across multiple shards?
+
+# Solution - It sends the query to a coordinating node, which forwards it to relevant shards and combines the results.
+
+Ques-5 -> (SCALER QUESTION 31519 8419) - 
+
+    What is the purpose of tokenization in full-text search?
+
+# Solution - To break text into individual words or tokens.
+
+Ques-6 -> (SCALER QUESTION 31518 7ff3) - 
+
+    What is the primary purpose of replication in Elasticsearch?
+
+# Solution - To share the load of read operations and provide fault tolerance.
+
+Ques-7 -> (SCALER QUESTION 31517 4e35) - 
+
+    How does Elasticsearch handle scalability?
+
+# Solution - By sharding data across multiple nodes.

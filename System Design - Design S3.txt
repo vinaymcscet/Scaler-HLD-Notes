@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31524 ebd4) - 
+
+    In the context of storing large files in chunks, what are the challenges of dividing files into smaller chunks?
+
+# Solution - Collation of chunks, High metadata overhead, Slow download speeds
+
+Ques-2 -> (SCALER QUESTION 31525 41e5) - 
+
+    Why is a variable-size grid approach preferred for location-based systems?
+
+# Solution - It optimizes query performance in dense and sparse areas.
+
+Ques-3 -> (SCALER QUESTION 31534 e0d5) - 
+
+    What is the primary advantage of using a QuadTree for spatial data partitioning?
+
+# Solution - It efficiently handles dynamic changes in data.
+
+Ques-4 -> (SCALER QUESTION 31535 58f9) - 
+
+    In HDFS, what does the NameNode server primarily store information about?
+
+# Solution - File metadata and data node locations
+
+Ques-5 -> (SCALER QUESTION 31536 8665) - 
+
+    To improve fault tolerance, what technique does HDFS use for data placement across different machines and racks?
+
+# Solution - Rack-Aware Algorithm
+
+Ques-6 -> (SCALER QUESTION 31537 08ab) - 
+
+    When determining the grid to which a point belongs in a QuadTree, what is the time complexity based on the number of points (N) in the tree?
+
+# Solution - Logarithmic time: O(log N)
+
+Ques-7 -> (SCALER QUESTION 31538 0355) - 
+
+    What is the time complexity of finding the grid to which a point belongs in a QuadTree?
+
+# Solution - O(log N)
