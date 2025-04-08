@@ -1,0 +1,35 @@
+Ques-1 -> (SCALER QUESTION 31539 7e90) - 
+
+    Why doesn't a uniform grid approach (quadtree) work effectively for Uber's location-based matching?
+
+# Solution - It cannot handle dynamic cab movements.
+
+Ques-2 -> (SCALER QUESTION 31540 b7fd) - 
+
+    What optimization technique does Uber use to minimize quadtree updates for cab movements?
+
+# Solution - Client-side handling of location changes
+
+Ques-3 -> (SCALER QUESTION 31541 ddc1) - 
+
+    What is the advantage of using a dynamic range (e.g., 50 to 75 cabs) for grid updates in Uber's system design?
+
+# Solution - It adapts to varying cab densities.
+
+Ques-4 -> (SCALER QUESTION 31542 92a5) - 
+
+    Which of the following is NOT a step in the design of Uber's location-based matching system?
+
+# Solution - Implementing real-time grid updates
+
+Ques-5 -> (SCALER QUESTION 31550 c24e) - 
+
+    Which factor influences the decision to update grid dimensions in Uber's quadtree?
+
+# Solution - The density of cabs in a grid
+
+Ques-6 -> (SCALER QUESTION 31551 a80c) - 
+
+    What is the primary reason for sharding cabs by city in Uber's system design?
+
+# Solution - To reduce the scope of the problem for each shard

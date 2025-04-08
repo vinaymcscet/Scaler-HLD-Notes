@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31552 074d) - 
+
+    In a distributed system with two different machines that need to generate unique IDs for incoming writes, can auto-incremented IDs (e.g., 1, 2, 3, ...) be trusted for this task?
+
+# Solution - No, auto-incremented IDs might conflict (both machines can generate the same ID)
+
+Ques-2 -> (SCALER QUESTION 31554 a5f6) - 
+
+    How does the Twitter Snowflakes Algorithm ensure unique and incremental 64-bit IDs by incorporating various components?
+
+# Solution - By incorporating data center and machine IDs, along with timestamps and a sequence ID
+
+Ques-3 -> (SCALER QUESTION 31553 3ad2) - 
+
+    In a distributed system with two different machines responsible for generating unique IDs for incoming writes, can timestamps be relied upon to generate these IDs?
+
+# Solution - No, timestamps may result in collisions when used on different machines
+
+Ques-4 -> (SCALER QUESTION 31555 bee0) - 
+
+    What is the primary purpose of a Rate Limiter in a client-server interaction?
+
+# Solution - To prevent DDoS attacks
+
+Ques-5 -> (SCALER QUESTION 31556 48ae) - 
+
+    Which of the following is NOT a type of Rate Limiter mentioned in the discussion?
+
+# Solution - Request Queue Algorithm
+
+Ques-6 -> (SCALER QUESTION 31557 f1c3) - 
+
+    What advantage does the Sliding Window Solution offer over the Dequeue Solution for rate limiting?
+
+# Solution - Reduced memory usage
+
+Ques-7 -> (SCALER QUESTION 31558 98ff) - 
+
+    In the Sliding Window Solution for rate limiting, how is the request count estimated for intervals with missing data?
+
+# Solution - By using previous interval data.
