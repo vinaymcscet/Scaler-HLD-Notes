@@ -1,0 +1,41 @@
+Ques-1 -> (SCALER QUESTION 31549 e220) - 
+
+    What is a key characteristic of a monolithic architecture?
+
+# Solution - Single codebase for the entire application
+
+Ques-2 -> (SCALER QUESTION 31548 9ac8) - 
+
+    A large retail chain opts for a microservices architecture for its online ordering system. What advantage does this provide when dealing with high traffic during holiday sales?
+
+# Solution - Efficient scaling of individual services
+
+Ques-3 -> (SCALER QUESTION 31547 c1b0) - 
+
+    What is a common challenge in the initial development phase of a microservices-based application compared to a monolithic one?
+
+# Solution - Testing complexity
+
+Ques-4 -> (SCALER QUESTION 31546 a5f6) - 
+
+    Which architecture allows for fault isolation, ensuring that issues in one service do not affect others?
+
+# Solution - Microservices architecture
+
+Ques-5 -> (SCALER QUESTION 31545 8a63) - 
+
+    In a monolithic e-commerce platform, if there is a bug in the shopping cart functionality, what might be the impact on the entire application?
+
+# Solution - The entire application might be impacted
+
+Ques-6 -> (SCALER QUESTION 31544 3bdc) - 
+
+    In an e-commerce platform following a microservices architecture, which service would you scale if you anticipate a surge in product searches during a holiday sale?
+
+# Solution - Product catalog service
+
+Ques-7 -> (SCALER QUESTION 31543 a60a) - 
+
+    Which architecture allows for faster feature releases and independent development of services?
+
+# Solution - Microservices architecture
